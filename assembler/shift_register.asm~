@@ -1,0 +1,4 @@
+	mov edx, ebx
+	and ebx, 11111b 	; geting 5 low orders
+	shr edx, 5 		; divide last by 32
+	mov bh, dl
